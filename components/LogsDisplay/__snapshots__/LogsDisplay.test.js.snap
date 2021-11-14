@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logs display should render correctly 1`] = `
+<div>
+  <div>
+    <div>
+      <div>
+        <h2>
+          All page views
+        </h2>
+        <div>
+          <span>
+            /about
+          </span>
+          :
+           
+          <span>
+            4
+             
+            page views
+          </span>
+        </div>
+        <div>
+          <span>
+            /home
+          </span>
+          :
+           
+          <span>
+            2
+             
+            page views
+          </span>
+        </div>
+      </div>
+      <div>
+        <h2>
+          Unique page views
+        </h2>
+        <div>
+          <span>
+            /about
+          </span>
+          :
+           
+          <span>
+            2
+             
+            unique views
+          </span>
+        </div>
+        <div>
+          <span>
+            /home
+          </span>
+          :
+           
+          <span>
+            1
+             
+            unique views
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

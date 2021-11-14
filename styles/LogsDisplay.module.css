@@ -1,0 +1,17 @@
+.pageDataColumns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pageDataWrapper {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .pageDataColumns {
+    flex-direction: row;
+  }
+}
+

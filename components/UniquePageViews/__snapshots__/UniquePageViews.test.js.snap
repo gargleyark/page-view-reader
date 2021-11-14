@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unique Page Views should render correctly 1`] = `
+<div>
+  <div>
+    <h2>
+      Unique page views
+    </h2>
+    <div>
+      <span>
+        /about
+      </span>
+      :
+       
+      <span>
+        2
+         
+        unique views
+      </span>
+    </div>
+    <div>
+      <span>
+        /home
+      </span>
+      :
+       
+      <span>
+        1
+         
+        unique views
+      </span>
+    </div>
+  </div>
+</div>
+`;

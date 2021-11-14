@@ -1,0 +1,48 @@
+.fileUpload {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.fileUpload + label {
+  color: #ffffff;
+  background-color: #0070f3;
+  max-width: 80%;
+  font-size: 1.25rem;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  border-radius: 4px;
+}
+
+.fileUpload + label svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+  margin-top: -0.25em;
+  margin-right: 0.25em;
+}
+
+.fileUpload:focus + label,
+.fileUpload.has-focus + label,
+.fileUpload + label:hover {
+  background-color: #05448d;
+}
+
+.fileUpload:focus + label,
+.fileUpload.has-focus + label {
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.form {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin: 2em 0em;
+}
